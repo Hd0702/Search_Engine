@@ -1,0 +1,11 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="indexInterface",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classindex_interface.html",tooltip="The indexInterface class : this is a pure abstract class that influences the avl/hash index files Eac..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="avlIndex",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classavl_index.html",tooltip="The avlIndex class : this class uses all the methods from indexInterface and uses AVLtree implementat..."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="hashIndex",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classhash_index.html",tooltip="The hashIndex class : this class uses all the methods from indexInterface and uses Hash_Map implement..."];
+}
